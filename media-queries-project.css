@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  background-color: #111111;
+  margin: 0;
+}
+
+.nav,
+.hero {
+  background-color: #000000;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 20px;
+}
+
+.hero {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.text-container {
+  margin: 200px auto;
+  text-align: center;
+  align-self: center;
+  width: 50%;
+}
+
+.phone-img {
+  width: 50%;
+  height: 80%;
+  margin: 100px 0;
+}
+
+.title {
+  font-size: 6vw;
+  margin: 10px;
+}
+
+.subtitle {
+  font-size: 3vw;
+  margin: 10px;
+}
+
+.description {
+  font-size: 2vw;
+  margin: 10px;
+}
+
+.buy-btn {
+  font-size: 2vw;
+  background-color: #2a96ff;
+  margin: 10px;
+  padding: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 30%;
+  border: none;
+  color: #ffffff;
+}
+
+.cta-container {
+  font-size: 1.75vw;
+  color: #2a96ff;
+  margin: 10px;
+}
+.cta {
+  padding: 10px;
+}
+
+@media screen and (min-width: 1081px) {
+  #hamburger {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1080px) {
+  #hamburger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .phone-img {
+    width: 80%;
+    height: 80%;
+    margin: 50px;
+  }
+
+  .text-container {
+    margin: 0;
+    margin-top: 10%;
+  }
+
+  .nav {
+    justify-content: space-between;
+  }
+
+  #mac,
+  #ipad,
+  #iphone,
+  #watch,
+  #tv,
+  #music,
+  #support,
+  #search-logo {
+    display: none;
+  }
+}
